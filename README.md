@@ -1,5 +1,7 @@
 # CS_ProductPricingTest
 
+Please note this project was built using Visual Studio running on a Mac.
+
 Two components are included in this project:
 1. PriceSend: this is the service that sends prices over a RabbitMQ queue
 2. PriceReceive: this service can have multiple instances and subscribes to messages from PriceSend
